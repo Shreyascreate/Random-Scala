@@ -249,7 +249,7 @@ class _IndiaState extends State<India> {
                     )
                 ),
                 Text(
-                    '              -  River Rafting in Rushikesh',
+                    '              -  River Rafting in Rushikesh\n',
                     style: TextStyle(
                       fontSize: 15.0,
                       color: bgColor,
