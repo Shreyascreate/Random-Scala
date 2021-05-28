@@ -39,31 +39,39 @@ class _ChooseLocationState extends State<ChooseLocation> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.brown[100],
+      backgroundColor: Colors.black,
       appBar: AppBar(
-        backgroundColor: Colors.brown[300],
+        backgroundColor: Colors.black38,
         title: Text('Choose location screen',
             style: TextStyle(
                 fontFamily: 'Nato_serif_Italic',
+              color: Colors.red,
+              fontSize: 23.0
             ),
         ),
         elevation: 0,
       ),
       body: ListView.builder(
         itemCount: locations.length,
-        itemBuilder: (context,index){
+        itemBuilder: (context,index) {
           return Padding(
             padding: const EdgeInsets.symmetric(vertical: 3.0,horizontal: 4.0),
             child: Card(
-              child:ListTile(
-                onTap: () {
-                  updateTime(index);
-                },
-                title: Text(locations[index].location),
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage('assets/${locations[index].flag}'),
-                ),
+              child:Container(
+                color: Colors.blueGrey,
+                child: ListTile(
+                  onTap: () {
+                    updateTime(index);
+                  },
+                  title: Text(locations[index].location,
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),),
+                  leading: CircleAvatar(
+                    backgroundImage: AssetImage('assets/${locations[index].flag}'),
+                  ),
 
+                ),
               ) ,
             ),
           );

@@ -1,3 +1,4 @@
+import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:world_time/services/world_time.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
@@ -35,13 +36,30 @@ class _LoadingState extends State<Loading> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.indigo[200],
+      backgroundColor: Colors.black,
+
       body: Center(
-        child: SpinKitFadingCube(
-          color: Colors.pink[400],
-          size: 68.0,
+          child:
+        Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            Text('COMPANION',
+             style: TextStyle(
+               fontSize: 25.0,
+               fontWeight: FontWeight.bold,
+               color: Colors.white,
+             ),),
+            SizedBox(height: 20.0,),
+
+            SpinKitFadingCube(
+              color: Colors.pink[400],
+              size: 68.0,
+            ),
+          ],
         ),
-      ),
+
+        ),
     );
   }
 }

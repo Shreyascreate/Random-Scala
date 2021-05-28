@@ -62,7 +62,8 @@ class _HomeState extends State<Home> {
       }
       break;
       case 'Norway' : {
-        bgImage = data['isDayTime'] ? 'Switzerland.jpg' : 'Switzerland - Night.jpg';
+        bgImage = data['isDayTime'] ? 'Day Norway.jpg' : 'Night Norway.jpg';
+        fontColor = data['isDayTime']? Colors.white : Colors.white70;
       }
       break;
       case 'Brazil' : {
