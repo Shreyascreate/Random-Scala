@@ -28,7 +28,7 @@ class _ItalyState extends State<Italy> {
             decoration: BoxDecoration(
               color: Colors.white70,
               image: DecorationImage(
-                image: AssetImage('assets/place.jpeg'),
+                image: AssetImage('assets/PLACE ITALY.jpg'),
                 fit: BoxFit.fill,
               ),
             ),
@@ -116,7 +116,7 @@ class _ItalyState extends State<Italy> {
             decoration: BoxDecoration(
               color: Colors.white70,
               image: DecorationImage(
-                image: AssetImage('assets/biryani.jpg'),
+                image: AssetImage('assets/ITALY FOOD.jpg'),
                 fit: BoxFit.fill,
               ),
             ),
@@ -203,7 +203,7 @@ class _ItalyState extends State<Italy> {
             decoration: BoxDecoration(
               color: Colors.white70,
               image: DecorationImage(
-                image: AssetImage('assets/diving1.jpg'),
+                image: AssetImage('assets/ACITIVITY ITALY.jpg'),
                 fit: BoxFit.fill,
               ),
             ),

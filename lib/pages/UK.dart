@@ -28,7 +28,7 @@ class _UKState extends State<UK> {
             decoration: BoxDecoration(
               color: Colors.white70,
               image: DecorationImage(
-                image: AssetImage('assets/place.jpeg'),
+                image: AssetImage('assets/PLACE UK.jpg'),
                 fit: BoxFit.fill,
               ),
             ),
@@ -116,7 +116,7 @@ class _UKState extends State<UK> {
             decoration: BoxDecoration(
               color: Colors.white70,
               image: DecorationImage(
-                image: AssetImage('assets/biryani.jpg'),
+                image: AssetImage('assets/UK FOOD.jpg'),
                 fit: BoxFit.fill,
               ),
             ),
@@ -203,7 +203,7 @@ class _UKState extends State<UK> {
             decoration: BoxDecoration(
               color: Colors.white70,
               image: DecorationImage(
-                image: AssetImage('assets/diving1.jpg'),
+                image: AssetImage('assets/ACTIVITY UK.jpg'),
                 fit: BoxFit.fill,
               ),
             ),

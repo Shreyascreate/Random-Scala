@@ -28,7 +28,7 @@ class _USAState extends State<USA> {
             decoration: BoxDecoration(
               color: Colors.white70,
               image: DecorationImage(
-                image: AssetImage('assets/Australia - Night.jpg'),
+                image: AssetImage('assets/PLACE USA.jpg'),
                 fit: BoxFit.fill,
               ),
             ),
@@ -116,7 +116,7 @@ class _USAState extends State<USA> {
             decoration: BoxDecoration(
               color: Colors.white70,
               image: DecorationImage(
-                image: AssetImage('assets/biryani.jpg'),
+                image: AssetImage('assets/USA FOOD.jpg'),
                 fit: BoxFit.fill,
               ),
             ),
@@ -203,7 +203,7 @@ class _USAState extends State<USA> {
             decoration: BoxDecoration(
               color: Colors.white70,
               image: DecorationImage(
-                image: AssetImage('assets/diving1.jpg'),
+                image: AssetImage('assets/ACTIVITY USA.jpg'),
                 fit: BoxFit.fill,
               ),
             ),

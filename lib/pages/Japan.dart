@@ -28,7 +28,7 @@ class _JapanState extends State<Japan> {
             decoration: BoxDecoration(
               color: Colors.white70,
               image: DecorationImage(
-                image: AssetImage('assets/place.jpeg'),
+                image: AssetImage('assets/PLACE JAPAN.jpg'),
                 fit: BoxFit.fill,
               ),
             ),
@@ -108,7 +108,7 @@ class _JapanState extends State<Japan> {
             decoration: BoxDecoration(
               color: Colors.white70,
               image: DecorationImage(
-                image: AssetImage('assets/biryani.jpg'),
+                image: AssetImage('assets/JAPAN FOOD.jpg'),
                 fit: BoxFit.fill,
               ),
             ),
@@ -196,7 +196,7 @@ class _JapanState extends State<Japan> {
             decoration: BoxDecoration(
               color: Colors.white70,
               image: DecorationImage(
-                image: AssetImage('assets/diving1.jpg'),
+                image: AssetImage('assets/ACTIVITY JAPAN.jpg'),
                 fit: BoxFit.fill,
               ),
             ),
